@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	background: url(2.avif) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(228, 127, 11, 0.445);
+}
+.navbar .img1{
+	width: 80px;
+	height: 80px;
+	padding: 3px 30px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: rgba(255, 102, 0, 0.74);
+	border-radius: 15px;
+}
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	user-select: none;
+}
+.center h1{
+	color: rgba(209, 145, 27, 0.671);
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.center h2{
+	color: rgba(156, 109, 22, 0.671);
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: white;
+	background: rgba(255, 102, 0, 0.74);
+	outline: none;
+	cursor: pointer;
+	border: 1px solid rgba(255, 102, 0, 0.74);
+	border-radius: 25px;
+	transition: .4s;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.buttons .btn2{
+	margin-left: 25px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.buttons button:hover{
+	background: rgb(226, 156, 50);
+}
